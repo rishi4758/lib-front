@@ -16,9 +16,12 @@ function Form({ history }) {
       headers: { "Content-Type": "application/json" },
     });
 
-    if (response.data.status === 200 || 201) {
+    if (response.data.status === 200) {
       localStorage.setItem("user", response.data);
       history.push("/form");
+    }
+    else{
+      window.alert(response.data.message)
     }
   };
   return (
