@@ -14,7 +14,7 @@
     "web-vitals": "^1.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-app-rewired start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -37,5 +37,8 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://libback-env.eba-gpizad5f.us-east-2.elasticbeanstalk.com"
+  "proxy": "http://libback-env.eba-gpizad5f.us-east-2.elasticbeanstalk.com",
+  "devDependencies": {
+    "react-app-rewired": "^2.1.8"
+  }
 }
