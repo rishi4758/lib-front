@@ -37,7 +37,6 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://libback-env.eba-gpizad5f.us-east-2.elasticbeanstalk.com",
   "devDependencies": {
     "react-app-rewired": "^2.1.8"
   }
