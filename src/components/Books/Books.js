@@ -37,14 +37,7 @@ class Books extends React.Component {
                     <h2>{el.name.toUpperCase()}</h2>
                     <h4 className="row">{el.author}</h4>
                     <h4 className="row"> count: {el.count}</h4>
-                    <h4 className="row"> semester:{el.semester}</h4>
-                    {/* <tr key={el.id}>
-                      <td>{el.name.toUpperCase()}</td>
-                      <td>{el.author}</td>
-                      <td>{el.count}</td>
-                      <td>{el.semester}</td>
-                    </tr> */}
-                    ,
+                    <h4 className="row"> semester:{el.semester}</h4>,
                   </div>
                 </div>,
               ],
